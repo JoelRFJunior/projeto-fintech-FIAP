@@ -1,0 +1,16 @@
+{
+  "name": "projeto-fintech-web",
+  "version": "1.0.0",
+  "description": "projeto de fintech em adamento faculdade",
+  "license": "ISC",
+  "author": "Joel Roberto Ferreira Junior",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/css/styles.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "tailwindcss": "^4.3.1"
+  }
+}
